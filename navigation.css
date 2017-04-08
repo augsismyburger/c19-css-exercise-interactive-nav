@@ -1,0 +1,28 @@
+h1 {
+    color: white;
+    background-color: darkgrey;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: black;
+    width: auto;
+    padding: .15em;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    color: cyan;
+    text-decoration: none;
+    background-color: slategrey;
+    border-radius: 25%;
+    padding: 0 20px 0 20px;
+}
+nav li a:hover {
+    color: white;
+    background-color: darkred;
+}
+nav li a:active {
+    padding: 0 25px 0 25px;
+}
